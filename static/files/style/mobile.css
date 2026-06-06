@@ -40,6 +40,8 @@
     button:not(#navBtn) {
         font-size: 14px !important;
         font-weight: 400 !important;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
     }
 }
 @media (max-width: 568px) {
