@@ -9,7 +9,8 @@
     --color-secondary: #add8e6;
     --color-accent: #ffa500;
     --color-bg: #ffffff;
-    --color-text: #333333;
+    --color-text: #555555;
+    /* --color-text: #333333; */
 
     --font-size-h1: 2.5rem;
     --font-size-h2: 2rem;
@@ -21,8 +22,10 @@
     --font-size-xl: 1.5rem;
 
     /* Mobile headings */
-    --font-size-mobile-h1: 1.8rem;
-    --font-size-mobile-h2: 1.25rem;
+    --font-size-mobile-h1: 1.35rem;
+    --font-size-mobile-h2: 1.15rem;
+    /* --font-size-mobile-h1: 1.8rem;
+    --font-size-mobile-h2: 1.25rem; */
     --font-size-mobile-h3: 1.3rem;
     --font-size-mobile-h4: 1.2rem;
     --font-size-mobile-h5: 1.1rem;
@@ -34,7 +37,7 @@
     /* for nav-links in desktop // */
     --font-size-sm: .9rem;
     /* for small text // nav-links in mobile */
-    --font-size-xs: 1rem;
+    --font-size-xs: .95rem;
 
     /* section spacing */
     --gap-section: 4rem;

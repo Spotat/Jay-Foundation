@@ -19,10 +19,11 @@
     }
     h1 {
         font-size: var(--font-size-h1);
+        font-weight: 300 !important;
     }
     h2 {
         font-size: var(--font-size-h2);
-        font-weight: 500 !important;
+        font-weight: 300 !important;
     }
     h3 {
         font-size: var(--font-size-h3);
@@ -37,7 +38,8 @@
         font-size: var(--font-size-h6);
     }
     button:not(#navBtn) {
-        font-size: var(--font-size-base);
+        font-size: 14px !important;
+        font-weight: 400 !important;
     }
 }
 @media (max-width: 568px) {
@@ -117,6 +119,7 @@
         visibility: hidden;
         align-items: center;
         justify-content: center;
+        display: none;
         background: rgba(255, 255, 255, 0.418);
         flex-direction: column;
         z-index: 99;
@@ -143,10 +146,13 @@
     }
 
     .slider > h1 {
-        width: 100%;
+        width: 80%;
     }
     .slider > p {
         width: 100%;
+    }
+    .slider button {
+        text-transform: none !important;
     }
     
     /* about us section */
@@ -170,6 +176,10 @@
     } 
     .about-body > p {
         width: 100%;
+    }
+    .about-body > button a {
+        font-size: 14px !important;
+        font-weight: 400 !important;
     }
 
     /* tabs row */
@@ -280,12 +290,18 @@
     .service-col > img {
         height: 40vh;
     }
-    .service-col > h2,
+    .service-col > h2 {
+        width: 70%;
+    }
     .about-section.services > .about-body > h2 {
         width: 100%;
     }
     .card > h5 {
         font-size: var(--font-size-h5) !important;
+        font-family: "Lato-Bold" !important;
+    }
+    .card p {
+        font-size: 14px !important;
     }
 
     /* testimonials */
