@@ -1,0 +1,94 @@
+:root {
+    /* --color-primary: #228b22;
+    --color-secondary: #90ee90;
+    --color-accent: #87ceeb;
+    --color-bg: #ffffff;
+    --color-text: #36454f; */
+    
+    --color-primary: #003366;
+    --color-secondary: #add8e6;
+    --color-accent: #ffa500;
+    --color-bg: #ffffff;
+    --color-text: #333333;
+
+    --font-size-h1: 2.5rem;
+    --font-size-h2: 2rem;
+    --font-size-h3: 1.75rem;
+    --font-size-h4: 1.5rem;
+    /* same as for desktop and for paragraphs & buttons */
+    --font-size-h5: 1.25rem;
+    --font-size-h6: 1rem;
+    --font-size-xl: 1.5rem;
+
+    /* Mobile headings */
+    --font-size-mobile-h1: 1.8rem;
+    --font-size-mobile-h2: 1.25rem;
+    --font-size-mobile-h3: 1.3rem;
+    --font-size-mobile-h4: 1.2rem;
+    --font-size-mobile-h5: 1.1rem;
+    --font-size-mobile-h6: 1rem;
+
+    --font-size-base: 16px;
+    /* for cta-links, paragraphs and buttons in desktop*/
+    --font-size-lg: 1rem;
+    /* for nav-links in desktop // */
+    --font-size-sm: .9rem;
+    /* for small text // nav-links in mobile */
+    --font-size-xs: 1rem;
+
+    /* section spacing */
+    --gap-section: 4rem;
+        /* also known as container padding */
+    --gap-subsection: 2rem;
+    /* mobile version */
+    --gap-mobile: 3rem;
+    --gap-mobile-sub: 1.5rem;
+
+    --gap: 1em;
+
+    /* paddings & margins for desktop */
+    --padding-top-bottom: 3rem;
+    --padding-left-right: 5rem;
+    
+    --margin-headings: 2rem;
+    --margin-buttons: 1rem;
+    /* paddings & margins for mobile */
+    --padding-mobile-top-bottom: 2rem;
+    --padding-mobile-left-right: 2rem;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../assets/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Raleway;
+    src: url(../assets/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: Inter;
+    src: url(../assets/Libre_Baskerville/LibreBaskerville-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../assets/lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: Lato-Medium;
+    src: url(../assets/lato/Lato-Medium.ttf);
+}
+@font-face {
+    font-family: Lato-Hairline;
+    src: url(../assets/lato/Lato-Hairline.ttf);
+}
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../assets/lato/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: Lato-Italic;
+    src: url(../assets/lato/Lato-Italic.ttf);
+}
+@font-face {
+    font-family: Merriweather-Regular;
+    src: url(../assets/Merriweather/Merriweather-Regular.ttf);
+}

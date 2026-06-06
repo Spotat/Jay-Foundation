@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="MobileOptimization" content="320">
+    <title>Child support</title>
+    <link rel="stylesheet" href="./static/files/style/style.css">
+    <link rel="stylesheet" href="./static/files/style/main.css">
+    <link rel="stylesheet" href="./static/files/assets/fontawesome-free-6.5.2-web/css/all.css">
+    <link rel="stylesheet" href="./static/files/style/mobile.css">
+    <script src="./static/files/scripts/script.js"></script>
+</head> 
+<body>
+    <section class="hero-section">
+        <div class="container_fluid"></div>
+        <div class="container nav-overlay clearfix">
+            <div class="header">
+                <div class="logo">
+                    <img src="./static/files/assets/images/jay_foundation_logo.png" alt="">
+                    <!-- <h2><span>CH</span>support</h2> -->
+                    <!-- <p>Changing the lives of orphans</p> -->
+                </div>
+                <nav class="navbar" id="sideNav">
+                    <div class="primary-nav">
+                        <div class="info">
+                            <i class="fa fa-envelope"></i>
+                            <p>chsupport.org@gmail.com</p>
+                        </div>
+                        <div class="info">
+                            <i class="fa fa-phone"></i>
+                            <p>+254 712-345-678</p>
+                        </div>
+                        <button class="donationBtn" id="navBtn">Donate now</button>
+                    </div>
+                    <div class="secondary-nav">
+                        <div class="nav-links">
+                            <a href="#" class="active">Home</a>
+                            <a href="./templates/about.html">About</a>
+                            <a href="#">How to help</a>
+                            <a href="#">Options</a>
+                            <a href="#">Service</a>
+                            <a href="./templates/contact.html">Contact us</a>
+                        </div>
+                        <div class="socials">
+                            <a href="#" class="fa-brands fa-instagram"></a>
+                            <a href="#" class="fa-brands fa-twitter"></a>
+                            <a href="#" class="fa-brands fa-facebook"></a>
+                            <a href="#" class="fa-brands fa-youtube"></a></div>
+                    </div>
+                    <span class="navClose" onclick="closeNav()">&times</span>
+                </nav>
+                <span class="openNav" onclick="openNav()">&#9776</span>
+            </div>
+            <div class="slider">
+                <h1>Restoring Dignity, Building Hope</h1>
+                <p>We provide essential support to slum and street families, ensuring no one is left behind.</p>
+                <!-- <p>The Jay Foundation is a dedicated non-profit organization committed to uplifting the most vulnerable members of our society: families living in slums and on the streets. We believe that every individual deserves dignity, safety, and the basic necessities of life. Our mission is to bridge the gap between poverty and hope by providing essential resources, including food, shelter, healthcare, and education, directly to those who need it most. Through community-driven initiatives and compassionate support, we strive to create a sustainable path out of poverty for street and slum families.</p> -->
+                <button class="donationBtn yellow">Support our cause</button>
+            </div>
+        </div>
+    </section>
+    <section class="about-section">
+        <!-- <div class="about-image">
+            <div class="ab-image-row">
+                <img src="./static/files/assets/Don Schoendorfer_ Trust Through God's Silence.jpg" alt="">
+                <img src="./static/files/assets/th (7).jpg" alt="">
+            </div>
+            <div class="ab-image-row">
+                <img src="./static/files/assets/Don Schoendorfer_ Trust Through God's Silence.jpg" alt="">
+                <img src="./static/files/assets/th (2).jpg" alt="">
+            </div>
+            <img src="./static/files/assets/th (7).jpg" alt="">
+            <div class="ab-image-row">
+                <img src="./static/files/assets/Don Schoendorfer_ Trust Through God's Silence.jpg" alt="">
+                <img src="./static/files/assets/th (7).jpg" alt="">
+            </div>
+            <div class="ab-image-row">
+                <img src="./static/files/assets/Don Schoendorfer_ Trust Through God's Silence.jpg" alt="">
+                <img src="./static/files/assets/th (7).jpg" alt="">
+            </div>
+            <div class="ab-image-row">
+                <img src="./static/files/assets/Don Schoendorfer_ Trust Through God's Silence.jpg" alt="">
+                <img src="./static/files/assets/th (7).jpg" alt="">
+            </div>
+        </div> -->
+        <div class="about-body">
+            <div class="heading"><span class="fa fa-heart"></span><p>About us</p></div>
+            <h2>Dedicated to everyone-Compassionate services for all people everywhere.</h2>
+            <p>At The Jay Foundation, we are a non-profit organization born from a simple belief: every family deserves a safe place to call home and the resources to thrive. We focus specifically on supporting families living in slums and on the streets, who often face the harshest realities of poverty. Our team works tirelessly on the ground to understand the unique challenges these communities face, delivering direct aid and long-term solutions. We are more than just a charity; we are a community of compassionate individuals dedicated to transforming lives one family at a time.</p>
+            <div class="tabs-row">
+                <div class="tab">
+                    <span class="tab-icon fa fa-coins"></span>
+                    <p>Donate to medical care</p>
+                </div>
+                <div class="tab">
+                    <span class="tab-icon fa fa-heart"></span>
+                    <p>Feeding programs for children</p>
+                </div>
+                <div class="tab">
+                    <span class="tab-icon fa fa-book-open"></span>
+                    <p>Free education and scholarships</p>
+                </div>
+                <div class="tab">
+                    <span class="tab-icon fa fa-stethoscope"></span>
+                    <p>Family placements and reuniting</p>
+                </div>
+            </div>
+            <button> <a href="./templates/about.html">Learn more</a> </button>
+        </div>
+        <div class="about-image">
+            <img src="./static/files/assets/images/jay_foundation_5.jpg" alt="">
+            <!-- <img src="./static/files/assets/images/jay_foundatiion_8.jpg" alt=""> -->
+        </div>
+    </section>
+    <section class="add-sect">
+        <div class="add-container">
+            <div class="add-col">
+                <div class="add-col-overlay">
+                    <h2>Become a Volunteer</h2>
+                    <p>Your time and energy can change a life.</p>
+                    <button class="volunteerBtn">See more</button>
+                </div>
+            </div>
+            <div class="add-col">
+                <div class="add-col-overlay">
+                    <h2>Join as Volunteer</h2>
+                    <p>We invite you to become a Volunteer and join our mission to support slum and street families. Whether you can help distribute food, teach a child, organize a donation drive, or simply spend time with those in need, your contribution matters.</p>
+                    <button class="volunteerBtn">See more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="impact-stats">
+        <div class="stat">
+            <h1>100+</h2>
+            <p>We have successfully provided shelter, food, and essential healthcare to over 100 families living in the most vulnerable slum and street communities, helping them transition from survival to stability.</p>
+        </div>
+        <div class="stat">
+            <h1>500+</h1>
+            <p>Almost every single day, our dedicated team distributes more than 500 nutritious meals to hungry children and adults, ensuring that no family goes to bed on an empty stomach.</p>
+        </div>
+        <div class="stat">
+            <h1>5 Years +</h1>
+            <p>For the past five years, The Jay Foundation has remained a steadfast pillar of hope, consistently delivering life-changing aid and building a sustainable future for those who have been left behind.</p>
+        </div>
+    </section>
+    <section class="break-sect">
+        <div class="break-sec-container">
+            <div class="break-sec-row">
+                <div class="heading">
+                    <p>Our Journey</p>
+                </div>
+                <h2>Become a volunteer today</h2>
+                <p>Your time and energy can change a life. We invite you to become a Volunteer and join our mission to support slum and street families. Whether you can help distribute food, teach a child, organize a donation drive, or simply spend time with those in need, your contribution matters.</p>
+                <button id="volunteerBtn">Join as Volunteer</button>
+            </div>
+            <img src="./static/files/assets/images/jay_foundation_!.jpg" alt="">
+        </div>
+    </section>
+    <section class="part-sect">
+        <div class="part-sect-container">
+            <div class="part-sec-col">
+                <div class="part-col-row">
+                    <div class="heading"><p>Our Cause</p></div>
+                    <h2>Immediate Life-Saving Aid for Families in Crisis</h2>
+                    <p>We understand that hunger and exposure are immediate threats to the survival of street and slum families, which is why our Emergency Relief program operates 24/7 to deliver hot, nutritious meals, clean drinking water, and warm clothing directly to the most vulnerable locations. Our rapid response teams work tirelessly to identify families facing acute distress, providing not just food but also temporary shelter and medical first aid to stabilize their health before connecting them with long-term support services. By ensuring that no child or adult goes without basic sustenance, we lay the critical foundation for them to eventually rebuild their lives with dignity and hope.</p>
+                    <button class="donationBtn">Support Cause</button>
+                </div>
+                <div class="image__cont">
+                    <img src="./static/files/assets/Children.jpg" alt="">
+                </div>
+            </div>
+            <div class="part-sec-col">
+                <div class="image__cont">
+                    <img src="./static/files/assets/charity_ water.jpg" alt="">
+                </div>
+                <div class="part-col-row">
+                    <div class="heading"><p>Our Cause</p></div>
+                    <h2>Empowering the Next Generation Through Learning and Trade</h2>
+                    <p>Breaking the cycle of poverty requires more than just food; it demands access to quality education and practical vocational training that can lead to sustainable employment. Our Education and Skill Development initiative offers free tutoring, literacy classes, and creative workshops for children living in slums, while simultaneously providing adults with hands-on training in trades such as tailoring, carpentry, and basic electronics. We believe that by equipping families with the knowledge and skills to earn a living, we are not just teaching them a job but giving them the tools to secure a future where they can support themselves and their loved ones independently.</p>
+                    <button class="donationBtn">Support Cause</button>
+                </div>
+            </div>
+            <div class="part-sec-col">
+                <div class="part-col-row">
+                    <div class="heading"><p>Our Cause</p></div>
+                    <h2>Comprehensive Medical Care and Hygiene Support for All</h2>
+                    <p>Lack of access to healthcare is a major barrier for street families, often turning minor illnesses into life-threatening conditions, so our Community Wellness program brings essential medical services directly to the communities we serve. We organize regular health camps staffed by volunteer doctors and nurses who provide free check-ups, vaccinations, maternal care, and treatment for common diseases, while also distributing hygiene kits and conducting sanitation workshops to prevent the spread of infection. By prioritizing physical and mental well-being, we ensure that families are healthy enough to work, learn, and thrive in their new environments.</p>
+                    <button class="donationBtn">Support Cause</button>
+                </div>
+                <div class="image__cont">
+                    <img src="./static/files/assets/images/jay_foundation_7.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="gallery-container">
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-mk_photoz-2149411980-30598328.jpg" alt="">
+            </div>
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-safari-consoler-3290243-11742889.jpg" alt="">
+            </div>
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-blackboy-joy-338723713-32726240.jpg" alt="">
+            </div>
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-illustrate-digital-ug-924569584-28101466.jpg" alt="">
+            </div>
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-givingtuesday-9826015.jpg" alt="">
+            </div>
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-suraphat-933624.jpg" alt="">
+            </div>
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-safari-consoler-3290243-11742889.jpg" alt="">
+            </div>
+        </div>
+        <div class="gallery-container">
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-givingtuesday-9826015.jpg" alt="">
+            </div>
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-blackboy-joy-338723713-32726240.jpg" alt="">
+            </div>
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-illustrate-digital-ug-924569584-28101466.jpg" alt="">
+            </div>
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-givingtuesday-9826015.jpg" alt="">
+            </div>
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-suraphat-933624.jpg" alt="">
+            </div>
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-mk_photoz-2149411980-30598328.jpg" alt="">
+            </div>
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-safari-consoler-3290243-11742889.jpg" alt="">
+            </div>
+        </div>
+        <div class="gallery-container">
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-suraphat-933624.jpg" alt="">
+            </div>
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-blackboy-joy-338723713-32726240.jpg" alt="">
+            </div>
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-illustrate-digital-ug-924569584-28101466.jpg" alt="">
+            </div>
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-givingtuesday-9826015.jpg" alt="">
+            </div>
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-mk_photoz-2149411980-30598328.jpg" alt="">
+            </div>
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-safari-consoler-3290243-11742889.jpg" alt="">
+            </div>
+            <div class="gallery-card">
+                <img src="./static/files/assets/images/pexels-safari-consoler-3290243-11742889.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="our-help-sect" style="display: none;">
+        <div class="our-help-container">
+            <div class="heading">
+                <p>How we help</p>
+            </div>
+            <div class="our-help-header">
+                <h2>A trusted charity organization</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem debitis quisquam quas, possimus non accusantium similique, rerum obcaecati nisi et sapiente cumque velit, delectus fugit? Eveniet ipsam porro nesciunt nihil.</p>
+            </div>
+
+            <div class="our-container">
+                <div class="our-card">
+                    <img src="./static/files/assets/images/pexels-blackboy-joy-338723713-32726239.jpg" alt="">
+                    <div class="our-card-body">
+                        <h5>Fight poverty programs & service Children</h5>
+                        <p>Sit amet consectetur adipisicing elit. Totam unde quo maxime iste exercitationem soluta obcaecati quos</p>
+                    </div>
+                </div>
+                <div class="our-card">
+                    <img src="./static/files/assets/images/pexels-ron-lach-9037596.jpg" alt="">
+                    <div class="our-card-body">
+                        <h5>Bright futures: Education for every child</h5>
+                        <p>Sit amet consectetur adipisicing elit. Totam unde quo maxime iste exercitationem soluta obcaecati quos</p>
+                    </div>
+                </div>
+                <div class="our-card">
+                    <img src="./static/files/assets/images/pexels-suraphat-933624.jpg" alt="">
+                    <div class="our-card-body">
+                        <h5>Nourish hope, feeding children in crisis in the world</h5>
+                        <p>Sit amet consectetur adipisicing elit. Totam unde quo maxime iste exercitationem</p>
+                    </div>
+                </div>
+                <div class="our-card">
+                    <img src="./static/files/assets/images/pexels-mk_photoz-2149411980-30598328.jpg" alt="">
+                    <div class="our-card-body">
+                        <h5>Safe and sound shelter for children</h5>
+                        <p>Adipisicing elit. Totam unde quo maxime iste exercitationem soluta obcaecati quos</p>
+                    </div>
+                </div>
+                <div class="our-card">
+                    <img src="./static/files/assets/images/pexels-neris-milanio-31932426-8979525.jpg" alt="">
+                    <div class="our-card-body">
+                        <h5>Nourish hope, feeding children in crisis in the world</h5>
+                        <p>Sit amet consectetur adipisicing elit. Totam unde quo maxime iste exercitationem</p>
+                    </div>
+                </div>
+                <div class="our-card">
+                    <img src="./static/files/assets/images/pexels-ron-lach-9037596.jpg" alt="">
+                    <div class="our-card-body">
+                        <h5>Nourish hope, feeding children in crisis in the world</h5>
+                        <p>Sit amet consectetur adipisicing elit. Totam unde quo maxime iste exercitationem</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="break-sect" id="break2">
+        <div class="break-sec-container">
+            <div class="break-sec-row">
+                <div class="heading">
+                    <p>Our Journey</p>
+                </div>
+                <h2>Become a volunteer today</h2>
+                <p>Become a part of the world.</p>
+            </div>
+            <img src="./static/files/assets/images/pexels-yogendras31-1438461.jpg" alt="">
+        </div>
+    </section>
+    <section class="services-section">
+        <div class="service-container">
+            <div class="service-col">
+                <div class="heading">
+                    <p>What we do</p>
+                </div>
+                <h2>We are in a mission to help the helpless</h2>
+                <p>Nulla at quae, aliquam non ipsum beatae! Consequatur, voluptas!</p>
+                <div class="service-col-cont">
+                    <div class="card">
+                        <span class="service-icon fa fa-stethoscope"></span>
+                        <h5>Delivering Essential Food, Water, and Shelter</h5>
+                        <p>We ensure that every family has access to nutritious meals, clean drinking water, and safe temporary shelter, addressing the most urgent needs that keep them alive on the streets.</p>
+                    </div>
+                    <div class="card">
+                        <span class="service-icon fa fa-pizza-slice"></span>
+                        <h5>Creating Secure Environments for Vulnerable Children</h5>
+                        <p>>Our team works to protect children and adults from the dangers of street life by establishing safe zones and offering immediate protection from exploitation and violence.</p>
+                    </div>
+                    <div class="card">
+                        <span class="service-icon fa fa-graduation-cap"></span>
+                        <h5>Offering Free Learning and Vocational Training</h5>
+                        <p>We break the cycle of poverty by providing free schooling for children and practical job skills training for adults, enabling families to build sustainable livelihoods.</p>
+                    </div>
+                    <div class="card">
+                        <span class="service-icon fa fa-church"></span>
+                        <h5>Treating Every Individual with Respect and Compassion</h5>
+                        <p>We believe in the inherent worth of every person, striving to restore dignity by offering compassionate care, emotional support, and a path to a self-sufficient future.</p>
+                    </div>
+            </div>
+            </div>
+            <div class="service-col">
+                <img src="./static/files/assets/images/jay_foundation_4.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <div class="testimonials-container">
+            <h2>Stories of impact: What our beneficiaries say.</h2>
+            <div class="testimonials-cont">
+                <div class="testimonial-card">
+                    <div class="testimonial-body">
+                        <span class="fa fa-quote-left"></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit deleniti temporibus quasi magnam deserunt ipsa voluptates, officiis velit fugiat eius, sed reprehenderit.</p>
+                    </div>
+                    <div class="testimonial-address">
+                        <img src="./static/files/assets/pexels-cottonbro-4045599.jpg" alt="">
+                        <div class="address-container">
+                            <h3>Priya Kapoor</h3>
+                            <p>Student|Case Study</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-body">
+                        <span class="fa fa-quote-left"></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit deleniti temporibus quasi magnam deserunt ipsa voluptates, officiis velit fugiat eius, sed reprehenderit.</p>
+                    </div>
+                    <div class="testimonial-address">
+                        <img src="./static/files/assets/pexels-cottonbro-4045599.jpg" alt="">
+                        <div class="address-container">
+                            <h3>Priya Kapoor</h3>
+                            <p>Student|Case Study</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-body">
+                        <span class="fa fa-quote-left"></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit deleniti temporibus quasi magnam deserunt ipsa voluptates, officiis velit fugiat eius, sed reprehenderit.</p>
+                    </div>
+                    <div class="testimonial-address">
+                        <img src="./static/files/assets/pexels-cottonbro-4045599.jpg" alt="">
+                        <div class="address-container">
+                            <h3>Priya Kapoor</h3>
+                            <p>Student|Case Study</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="breaker-sect">
+        <div class="breaker-sect-container">
+            <div class="heading">
+                <p>How to get involved</p>
+            </div>
+            <h2>Join us today as a volunteer and join the race to make the world a better place for everybody</h2>
+            <button class="volunteerBtn">Join us</button>
+        </div>
+    </section>
+    <section class="news-sect">
+        <div class="heading">
+            <p>news updates</p>
+        </div>
+        <h2>Our latest news and articles</h2>
+        <div class="news-sect-container">
+            <div class="news-sec-row">
+                <div class="news-box">
+                    <img src="./static/files/assets/images/pexels-mk_photoz-2149411980-30598328.jpg" alt="">
+                    <div class="news-box-body">
+                        <h4>Empower vulnerable youth through education.</h4>
+                        <div class="date-box">
+                            <span>Jan 12/2025</span> <span class="author">Peter Muturi</span>
+                        </div>
+                        <p>Over 60,000 lives have been touched by our charity's work. We focus on helping individuals, improving communities, and fostering sustainable development.</p>
+                        <button>Read more</button>
+                    </div>
+                </div>
+                <div class="news-box">
+                    <img src="./static/files/assets/images/pexels-parijb-1427430.jpg" alt="">
+                    <div class="news-box-body">
+                        <h4>Contributing for a better future: What we did last year</h4>
+                        <div class="date-box">
+                            <span>Jan 12/2025</span> <span class="author">Josephine Ann</span>
+                        </div>
+                        <p>Over 60,000 lives have been touched by our charity's work. We focus on helping individuals, improving communities, and fostering sustainable development.</p>
+                        <button>Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="news-sec-row">
+                <div class="news-card">
+                    <img src="./static/files/assets/images/pexels-safari-consoler-3290243-11580454.jpg" alt="">
+                    <div class="news-card-body">
+                        <h2>Supporting local families in crisis. Providing nutritious meals to families.</h2>
+                        <p>Over 60,000 lives have been touched by our charity's work. We focus on helping individuals, improving communities, and fostering sustainable development.</p>
+                        <a href="#">Read more <span class="fa fa-angle-right"></span></a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="./static/files/assets/images/pexels-yogendras31-1438461.jpg" alt="">
+                    <div class="news-card-body">
+                        <h2>Supporting local families in crisis. Providing nutritious meals to families.</h2>
+                        <p>Over 60,000 lives have been touched by our charity's work. We focus on helping individuals, improving communities, and fostering sustainable development.</p>
+                        <a href="#">Read more <span class="fa fa-angle-right"></span></a>
+                    </div>
+                </div>
+                <!-- <div class="news-card">
+                    <img src="./static/files/assets/images/pexels-blackboy-joy-338723713-32726239.jpg" alt="">
+                    <div class="news-card-body">
+                        <h2>Supporting local families in crisis. Providing nutritious meals to families.</h2>
+                        <p>Over 60,000 lives have been touched by our charity's work. We focus on helping individuals, improving communities, and fostering sustainable development.</p>
+                        <a href="#">Read more <span class="fa fa-angle-right"></span></a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <section class="volunteer">
+        <div class="volunteer-cont">
+            <h1>Become a Volunteer</h1>
+            <p>Join us for a better life and beautiful future</p>
+            <button class="volunteerBtn">Join us now</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-cont">
+            <div class="footer-col">
+                <div class="logo">
+                    <img src="./static/files/assets/images/jay_foundation_logo.png" alt="">
+                    <!-- <h2><span>CH</span>support</h2>
+                    <p>Changing the lives of orphans</p> -->
+                </div>
+                <p>20th street Logishu</p>
+                <p>Lancaster Kenya,</p>
+                <p>P.O Box 254-154</p>
+            </div>
+            <div class="footer-col">
+                <h2>About us</h2>
+                <ul>
+                    <li><a href="#">Who we are</a></li>
+                    <li><a href="#">How we work</a></li>
+                    <li><a href="#">Financials</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>Your help</h2>
+                <ul>
+                    <li><a href="#">Leave a legacy</a></li>
+                    <li><a href="#">Monthly Giving</a></li>
+                    <li><a href="#">One-time donation</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>Our impact</h2>
+                <ul>
+                    <li><a href="">Child protection</a></li>
+                    <li><a href="">Clean water</a></li>
+                    <li><a href="">Education</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>Follow us</h2>
+                <ul>
+                    <li><a href="#" class="fa-brands fa-instagram"></a></li>
+                    <li><a href="#" class="fa-brands fa-twitter"></a></li>
+                    <li><a href="#" class="fa-brands fa-youtube"></a></li>
+                    <li><a href="#" class="fa-brands fa-facebook"></a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            <p>&copy; 2024 CHsupport. All rights reserved</p>
+            <p><strong>Designed By:</strong>  Glocode developers</p>
+        </div>
+    </footer>
+
+    <!-- Volunteer modal -->
+     
+    <!-- Modal -->
+    <div id="volunteerModal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <div class="modal-row">
+                <div class="modal-over">
+                    <span id="modalClose" class="close-btn fa fa-close" onclick="closeModal()"></span>
+                    <h2>Welcome</h2>
+                    <div class="heading" id="modalHead">
+                        <p>to CHsupport organization.</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione maxime nobis et molestiae exercitationem odio dolore laboriosam delen</p>
+                </div>
+            </div>
+            <div class="modal-row">
+                <h2>Register to volunteer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem aspernatu.</p>
+                <form action="#">
+                    <input type="text"  placeholder="Fullname">
+                    <input type="email"  placeholder="Email address">
+                    <input type="tel"  placeholder="Phone number">
+                    <input type="password" placeholder="Password">
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div id="donationModal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <div class="modal-row">
+                <div class="modal-over">
+                    <span id="modalDClose" class="close-btn fa fa-close" onclick="closeModal()"></span>
+                    <img src="./static/files/assets/images/pexels-parijb-1427430.jpg" alt="">
+                </div>
+            </div>
+            <div class="modal-row">
+                <h2>Make a donation</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem aspernatu.</p>
+                <form action="#" method="post">
+                    <div class="form_content">
+                        <div class="form_container">
+                            <div class="form_row">
+                                <h4>Donation amount</h4>
+                                <div class="options">
+                                    <div class="option">
+                                        <input type="radio" name="amount">
+                                        <label>20 usd</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" name="amount">
+                                        <label>50 usd</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" name="amount">
+                                        <label>100 usd</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_row">
+                                <h4>Donation type</h4>
+                                <div class="options">
+                                    <div class="option">
+                                        <input type="radio" name="amount">
+                                        <label>one time</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" name="amount">
+                                        <label>Monthly</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" name="amount">
+                                        <label>Yearly</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_row" id="two_col">
+                            <div class="form_column">
+                                <label>Your name</label>
+                                <input type="text" placeholder="Enter name">
+                            </div>
+                            <div class="form_column">
+                                <label>Your email</label>
+                                <input type="email" placeholder="Enter email">
+                            </div>
+                        </div>
+                        <div class="form_row" id="one_col">
+                            <label>Donation for</label>
+                            <input type="text" placeholder="Educate children">
+                        </div>
+                        <button type="submit">Donate now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- scripts -->
+    <script>
+        // Select all buttons with the class volunteerBtn
+        document.querySelectorAll('.volunteerBtn').forEach(btn => {
+            btn.addEventListener('click', () => {
+            document.getElementById('volunteerModal').classList.remove('hidden');
+            });
+        });
+
+        // Close modal function
+        function closeModal() {
+            document.getElementById('volunteerModal').classList.add('hidden');
+        }
+
+        // Close button listener
+        document.getElementById('modalClose').addEventListener('click', closeModal);
+
+
+        // Select all buttons with the class donaionBtn
+        document.querySelectorAll('.donationBtn').forEach(btn => {
+            btn.addEventListener('click', () => {
+            document.getElementById('donationModal').classList.remove('hidden');
+            });
+        });
+
+        // Close modal function
+        function closeDModal() {
+            document.getElementById('donationModal').classList.add('hidden');
+        }
+
+        // Close button listener
+        document.getElementById('modalDClose').addEventListener('click', closeDModal);
+    </script>
+</body>
+</html>
